@@ -1,0 +1,16 @@
+[project]
+name = "chatty-mcchatbot"
+version = "0.1.0"
+description = "Chatty McChatbot"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.135.1",
+    "langchain>=1.2.10",
+    "langchain-google-genai>=4.2.1",
+    "langchain-openai>=1.1.10",
+    "pydantic-settings>=2.13.1",
+    "pyjwt[crypto]>=2.12.1",
+    "ruff>=0.15.4",
+    "uuid>=1.30",
+]
